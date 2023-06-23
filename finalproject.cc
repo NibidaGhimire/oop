@@ -60,12 +60,12 @@ int main()
 {
     srand(time(0));
 
-    RenderWindow window(VideoMode(640, 960), "The Game!");
+    RenderWindow window(VideoMode(640, 480), "The Game!");
 
     Texture t1, t2, t3;
-    t1.loadFromFile("images/tiles.png");
-    t2.loadFromFile("images/pulback.png");
-    t3.loadFromFile("images/frame.png");
+    t1.loadFromFile("tiles.png");
+    t2.loadFromFile("pulback.png");
+    t3.loadFromFile("frame.png");
 
     Sprite s(t1), background(t2), frame(t3);
 
